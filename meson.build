@@ -7,4 +7,4 @@ test_sources = '''
   main.cpp
 '''.split()
 
-executable('test', test_sources, dependencies: [sfml, opengl])
+executable('gl', test_sources, dependencies: [sfml, opengl])
